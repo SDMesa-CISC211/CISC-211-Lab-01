@@ -100,6 +100,8 @@ int main ( void )
     SYS_Initialize ( NULL );
     DMAC_ChannelCallbackRegister(DMAC_CHANNEL_0, usartDmaChannelHandler, 0);
     RTC_Timer32CallbackRegister(rtcEventHandler, 0);
+    RTC_Timer32Compare0Set(PERIOD_500MS);
+    RTC_Timer32CounterSet(0);
     RTC_Timer32Start();
 #else // using the simulator
     isRTCExpired = true;
