@@ -1,4 +1,4 @@
-# CISC-211-Lab-00
+# CISC-211-Lab-01
 MPLAB X IDE for SD Mesa College CISC-211 Lab 1
 
 # Overview
