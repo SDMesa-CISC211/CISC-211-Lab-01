@@ -6,3 +6,5 @@ This project is used to verify that students have installed the correct software
 
 # Instructions
 Refer to lecture instructions and documentation
+
+Hello
